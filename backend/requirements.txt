@@ -1,0 +1,60 @@
+# Core framework
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# Security and Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+python-multipart==0.0.9
+email-validator==2.1.0.post1
+
+# ORM and DB
+SQLAlchemy==2.0.30
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# Data validation
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Environment and Configuration
+python-dotenv==1.0.1
+
+# Serialization / Performance
+orjson==3.10.2
+ujson==5.9.0
+
+# Logging and Monitoring
+prometheus-client==0.20.0
+loguru==0.7.2
+
+# Cryptography and Security
+cryptography==42.0.5
+pyasn1==0.5.1
+Fernet==0.3.1  # (AES-256 encryption via Fernet wrapper)
+
+# HTTP and Networking
+httpx==0.27.0
+requests==2.31.0
+
+# Background tasks & async
+anyio==4.3.0
+sniffio==1.3.1
+
+# WebSockets and SSE
+websockets==12.0
+sse-starlette==1.3.4
+
+# Linting and Formatting (dev only)
+autopep8==1.7.0
+pycodestyle==2.11.1
+
+# Template and Admin Interface (optional)
+Jinja2==3.1.3
+
+# Other essentials
+typing_extensions==4.11.0  
+markupsafe==2.1.5
+colorama==0.4.6
+click==8.1.7
